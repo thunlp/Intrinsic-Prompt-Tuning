@@ -1,0 +1,5 @@
+{
+    "train": ["gigaword", "multi_news", "samsum", "xsum"],
+    "dev": ["gigaword", "multi_news", "samsum", "xsum"],
+    "test": ["gigaword", "multi_news", "samsum", "xsum"]
+}

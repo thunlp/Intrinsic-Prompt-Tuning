@@ -1,0 +1,5 @@
+{
+    "train": ["blimp-anaphor_gender_agreement", "blimp-sentential_negation_npi_scope", "blimp-ellipsis_n_bar_1"],
+    "dev": ["blimp-anaphor_gender_agreement", "blimp-sentential_negation_npi_scope", "blimp-ellipsis_n_bar_1"],
+    "test": ["blimp-anaphor_gender_agreement", "blimp-sentential_negation_npi_scope", "blimp-ellipsis_n_bar_1"]
+}

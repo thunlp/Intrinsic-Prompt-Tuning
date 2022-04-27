@@ -1,0 +1,5 @@
+{
+    "train": ["empathetic_dialogues", "kilt_wow"],
+    "dev": ["empathetic_dialogues", "kilt_wow"],
+    "test": ["empathetic_dialogues", "kilt_wow"]
+}

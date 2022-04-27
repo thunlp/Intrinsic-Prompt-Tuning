@@ -1,0 +1,5 @@
+{
+    "train": ["quartz-with_knowledge", "quartz-no_knowledge", "race-high", "race-middle", "social_i_qa", "superglue-copa", "superglue-multirc", "swag", "wino_grande"],
+    "dev": ["quartz-with_knowledge", "quartz-no_knowledge", "race-high", "race-middle", "social_i_qa", "superglue-copa", "superglue-multirc", "swag", "wino_grande"],
+    "test": ["quartz-with_knowledge", "quartz-no_knowledge", "race-high", "race-middle", "social_i_qa", "superglue-copa", "superglue-multirc", "swag", "wino_grande"]
+}

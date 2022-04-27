@@ -1,0 +1,1 @@
+{"all": ["tweet_eval-irony"], "train": ["tweet_eval-irony"], "dev": ["tweet_eval-irony"], "test": ["tweet_eval-irony"]}

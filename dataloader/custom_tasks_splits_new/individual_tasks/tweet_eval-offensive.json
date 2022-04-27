@@ -1,0 +1,1 @@
+{"all": ["tweet_eval-offensive"], "train": ["tweet_eval-offensive"], "dev": ["tweet_eval-offensive"], "test": ["tweet_eval-offensive"]}

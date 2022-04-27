@@ -1,0 +1,5 @@
+{
+    "train": ["ai2_arc", "aqua_rat", "codah", "commonsense_qa", "cosmos_qa", "dream", "hellaswag", "math_qa", "openbookqa", "qasc", "quail", "quarel"],
+    "dev": ["ai2_arc", "aqua_rat", "codah", "commonsense_qa", "cosmos_qa", "dream", "hellaswag", "math_qa", "openbookqa", "qasc", "quail", "quarel"],
+    "test": ["ai2_arc", "aqua_rat", "codah", "commonsense_qa", "cosmos_qa", "dream", "hellaswag", "math_qa", "openbookqa", "qasc", "quail", "quarel"]
+}

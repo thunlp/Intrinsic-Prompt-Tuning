@@ -1,0 +1,5 @@
+{
+    "train": ["anli", "glue-mnli", "glue-qnli", "glue-rte", "superglue-rte", "glue-wnli", "scitail"],
+    "dev": ["anli", "glue-mnli", "glue-qnli", "glue-rte", "superglue-rte", "glue-wnli", "scitail"],
+    "test": ["anli", "glue-mnli", "glue-qnli", "glue-rte", "superglue-rte", "glue-wnli", "scitail"]
+}

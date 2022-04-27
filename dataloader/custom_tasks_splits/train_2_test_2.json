@@ -1,0 +1,6 @@
+{
+    "all": ["glue-sst2", "glue-mnli"],
+    "train": ["glue-sst2", "glue-mnli"],
+    "dev": ["glue-sst2", "glue-mnli"],
+    "test": ["glue-sst2", "glue-mnli"]
+}

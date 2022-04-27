@@ -1,0 +1,5 @@
+{
+    "train": ["adversarialqa", "biomrc", "quoref", "ropes", "superglue-record"],
+    "dev": ["adversarialqa", "biomrc", "quoref", "ropes", "superglue-record"],
+    "test": ["adversarialqa", "biomrc", "quoref", "ropes", "superglue-record"]
+}
