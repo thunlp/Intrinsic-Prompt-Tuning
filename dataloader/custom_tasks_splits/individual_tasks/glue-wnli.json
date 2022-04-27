@@ -1,0 +1,1 @@
+{"all": ["glue-wnli"], "train": ["glue-wnli"], "dev": ["glue-wnli"], "test": ["glue-wnli"]}

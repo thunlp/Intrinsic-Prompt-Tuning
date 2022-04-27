@@ -1,0 +1,5 @@
+{
+    "train": ["quarel", "kilt_ay2", "kilt_zsre", "common_gen", "ade_corpus_v2-dosage", "crawl_domain", "empathetic_dialogues", "kilt_trex", "eli5-asks", "squad-no_context", "web_questions", "gigaword", "race-middle", "ai2_arc", "multi_news", "samsum", "art", "lama-conceptnet", "adversarialqa", "wiki_bio", "superglue-copa", "cos_e", "definite_pronoun_resolution", "hellaswag", "quartz-with_knowledge", "freebase_qa", "cosmos_qa", "piqa", "lama-squad", "superglue-multirc", "break-QDMR", "spider", "xsum", "superglue-record", "kilt_hotpotqa"],
+    "dev": ["quarel", "kilt_ay2", "kilt_zsre", "common_gen", "ade_corpus_v2-dosage", "crawl_domain", "empathetic_dialogues", "kilt_trex", "eli5-asks", "squad-no_context", "web_questions", "gigaword", "race-middle", "ai2_arc", "multi_news", "samsum", "art", "lama-conceptnet", "adversarialqa", "wiki_bio", "superglue-copa", "cos_e", "definite_pronoun_resolution", "hellaswag", "quartz-with_knowledge", "freebase_qa", "cosmos_qa", "piqa", "lama-squad", "superglue-multirc", "break-QDMR", "spider", "xsum", "superglue-record", "kilt_hotpotqa"],
+    "test": []
+}
