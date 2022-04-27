@@ -1,5 +1,0 @@
-{
-    "train": ["tweet_eval-stance_hillary", "ethos-disability", "tweet_eval-stance_climate", "tweet_eval-stance_atheism", "ethos-national_origin", "ethos-religion", "ethos-sexual_orientation", "hate_speech18", "hatexplain"],
-    "dev": ["tweet_eval-stance_hillary", "ethos-disability", "tweet_eval-stance_climate", "tweet_eval-stance_atheism", "ethos-national_origin", "ethos-religion", "ethos-sexual_orientation", "hate_speech18", "hatexplain"],
-    "test": ["tweet_eval-stance_hillary", "ethos-disability", "tweet_eval-stance_climate", "tweet_eval-stance_atheism", "ethos-national_origin", "ethos-religion", "ethos-sexual_orientation", "hate_speech18", "hatexplain"]
-}

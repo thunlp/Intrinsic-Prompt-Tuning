@@ -1,5 +1,0 @@
-{
-    "train": ["quoref", "wiki_split", "ethos-disability", "yelp_polarity", "glue-cola", "ethos-sexual_orientation", "blimp-sentential_negation_npi_scope", "ai2_arc", "amazon_polarity", "race-high", "blimp-sentential_negation_npi_licensor_present", "tweet_eval-irony", "break-QDMR", "crawl_domain", "freebase_qa", "glue-qnli", "hatexplain", "ag_news", "circa"],
-    "dev": ["math_qa"],
-    "test": ["quoref", "wiki_split", "ethos-disability", "yelp_polarity", "glue-cola", "ethos-sexual_orientation", "blimp-sentential_negation_npi_scope", "ai2_arc", "amazon_polarity", "race-high", "blimp-sentential_negation_npi_licensor_present", "tweet_eval-irony", "break-QDMR", "crawl_domain", "freebase_qa", "glue-qnli", "hatexplain", "ag_news", "circa"]
-}

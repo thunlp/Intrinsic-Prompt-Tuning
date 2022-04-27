@@ -1,5 +1,0 @@
-{
-    "train": ["freebase_qa", "jeopardy", "kilt_hotpotqa", "kilt_nq", "kilt_trex", "kilt_zsre", "lama-conceptnet"],
-    "dev": ["freebase_qa", "jeopardy", "kilt_hotpotqa", "kilt_nq", "kilt_trex", "kilt_zsre", "lama-conceptnet"],
-    "test": ["freebase_qa", "jeopardy", "kilt_hotpotqa", "kilt_nq", "kilt_trex", "kilt_zsre", "lama-conceptnet"]
-}

@@ -1,5 +1,0 @@
-{
-    "train": ["paws", "glue-qqp", "medical_questions_pairs"],
-    "dev": ["paws", "glue-qqp", "medical_questions_pairs"],
-    "test": ["paws", "glue-qqp", "medical_questions_pairs"]
-}

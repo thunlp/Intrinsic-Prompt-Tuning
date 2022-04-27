@@ -14,16 +14,45 @@ pip install torch==1.8.0 higher==0.2.1 scikit-learn==0.24.1 scipy==1.4.1 rouge==
 ***
 ### Data
 
-The data processing sctrictly follows [crossfit](https://github.com/INK-USC/CrossFit), we have already provided the data used in our paper [data_link](https://drive.google.com/file/d/1gooRoE81crfSa5iodzYCkQcGTJVTFEBu/view?usp=sharing).
+The data processing sctrictly follows [crossfit](https://github.com/INK-USC/CrossFit), we have already provided the data used in our paper: [few-shot_data_link](https://drive.google.com/file/d/1gooRoE81crfSa5iodzYCkQcGTJVTFEBu/view?usp=sharing) / [full-size_data_link](https://cloud.tsinghua.edu.cn/f/23dee716b51f45988c2f/?dl=1).
 
 
 ***
 ### Training & Evaluation 
 
-(1) For prompt tuning baseline, refer to example_scripts/promptTune_classification_singletasks_0.sh
+#### Vanilla Prompt Tuning
+```shell
+bash example_scripts/promptTune.sh
+```
 
-(2) For multi-task subspace finding, refer to example_scripts/upstream_multitask_prompt_AE.sh
+We have provided all the trained prompts in [prompt_link](https://cloud.tsinghua.edu.cn/f/e85b9604def14f4e8455/?dl=1).
 
-(3) For intrinsic subspace tuning, refer to example_scripts/upstream_multitask_prompt_AE_recover.sh
+#### Multi-task Subspace Finding
+To find a prompt subspace, run the following:
+```shell
+bash example_scripts/MSF_prompt.sh
+```
+We provide the trained autoencoders (the random task split) with different intrinsic dimension (3/5/10/50/100) at [link](https://cloud.tsinghua.edu.cn/d/73b7c3e3d6f945f597ea/).
 
-(4) For combining prompt tuning and IPT, refer to example_scripts/upstream_multitask_prompt_AE_recover_stage2.sh
+#### Intrinsic Subspace Tuning
+(1) Tuning intrinsic vectors in a prompt subsapce found by IPT, run the following: 
+```shell
+bash example_scripts/IST_prompt.sh
+```
+
+(2) Tuning intrinsic vectors in a random subspace for all parameters in the PLM defined by Fastfood Transformation, run the following:
+```shell
+bash example_scripts/Tune_said.sh
+```
+
+(3) Tuning intrinsic vectors in a random prompt subspace, use the script example_scripts/IST_prompt.sh with --AE_recover_random
+
+(4) Tuning intrinsic vectors in an adapter subsapce found by IPT, run the following:
+```shell
+bash example_scripts/IST_adapter.sh
+```
+
+(5) For combining prompt tuning and IPT, i.e., using the solution found by IPT as the initialization for prompt tuning, and then conduct prompt tuning, run the following:
+```shell
+bash example_scripts/IST_stage_two.sh
+```

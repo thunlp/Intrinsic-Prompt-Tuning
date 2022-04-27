@@ -1,5 +1,0 @@
-{
-    "train": ["eli5-eli5", "eli5-askh", "eli5-asks"],
-    "dev": ["eli5-eli5", "eli5-askh", "eli5-asks"],
-    "test": ["eli5-eli5", "eli5-askh", "eli5-asks"]
-}
