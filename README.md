@@ -18,7 +18,7 @@ The data processing sctrictly follows [crossfit](https://github.com/INK-USC/Cros
 
 
 ***
-### Environment
+### Training & Evaluation
 
 (1) For prompt tuning baseline, refer to example_scripts/promptTune_classification_singletasks_0.sh
 
