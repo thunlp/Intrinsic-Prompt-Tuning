@@ -37,6 +37,8 @@ bash example_scripts/MSF_prompt.sh
 ```
 We provide the trained autoencoders with different intrinsic dimension at [link](https://cloud.tsinghua.edu.cn/d/73b7c3e3d6f945f597ea/). The autoencoders are trained on ~100 training tasks of the random task split. Please refer to dataloader/custom_tasks_splits/random.json to see how the tasks are divided into train/test tasks. The decoder in the autoencoder defines the subspace we find, which would be tested on the test tasks in IST.
 
+The trained adapter intrinsic encoders are hosted at Ali-Cloud. Visit the following link: https://qinyujia.oss-cn-qingdao.aliyuncs.com/adapter_distil_bs256_dim5_type1_20w_random/best-ckpt.pt, change the number after dimension (e.g., 5, 10, 50) to access different checkpoints.
+
 ### Intrinsic Subspace Tuning
 (1) Tuning intrinsic vectors in a prompt subsapce found by IPT, run the following: 
 ```shell
