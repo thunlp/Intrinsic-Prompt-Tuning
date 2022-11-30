@@ -1,0 +1,5 @@
+{
+    "train": ["climate_fever", "kilt_fever", "liar"],
+    "dev": ["climate_fever", "kilt_fever", "liar"],
+    "test": ["climate_fever", "kilt_fever", "liar"]
+}

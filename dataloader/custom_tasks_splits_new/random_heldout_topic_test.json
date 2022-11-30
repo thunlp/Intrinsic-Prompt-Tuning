@@ -1,0 +1,5 @@
+{
+    "train": ["dbpedia_14", "ag_news"],
+    "dev": ["dbpedia_14", "ag_news"],
+    "test": ["dbpedia_14", "ag_news"]
+}

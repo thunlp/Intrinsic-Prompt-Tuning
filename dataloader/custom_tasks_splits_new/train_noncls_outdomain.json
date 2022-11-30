@@ -1,0 +1,6 @@
+{
+    "all": ["acronym_identification", "ade_corpus_v2-effect", "aqua_rat", "aslg_pc12", "biomrc", "blimp-anaphor_gender_agreement", "blimp-ellipsis_n_bar_1", "blimp-sentential_negation_npi_scope", "boolq", "break-QDMR-high-level", "codah", "commonsense_qa", "crows_pairs", "dream", "e2e_nlg_cleaned", "eli5-askh", "eli5-eli5", "jeopardy", "kilt_nq", "kilt_wow", "lama-google_re", "lama-trex", "limit", "math_qa", "mc_taco", "numer_sense", "openbookqa", "proto_qa", "qa_srl", "qasc", "quail", "quartz-no_knowledge", "quoref", "race-high", "ropes", "search_qa", "social_i_qa", "swag", "wiki_split", "wikisql", "wino_grande"],
+    "train": ["acronym_identification", "ade_corpus_v2-effect", "aqua_rat", "aslg_pc12", "biomrc", "blimp-anaphor_gender_agreement", "blimp-ellipsis_n_bar_1", "blimp-sentential_negation_npi_scope", "boolq", "break-QDMR-high-level", "codah", "commonsense_qa", "crows_pairs", "dream", "e2e_nlg_cleaned", "eli5-askh", "eli5-eli5", "jeopardy", "kilt_nq", "kilt_wow", "lama-google_re", "lama-trex", "limit", "math_qa", "mc_taco", "numer_sense", "openbookqa", "proto_qa", "qa_srl", "qasc", "quail", "quartz-no_knowledge", "quoref", "race-high", "ropes", "search_qa", "social_i_qa", "swag", "wiki_split", "wikisql", "wino_grande"],
+    "dev": [],
+    "test": []
+}

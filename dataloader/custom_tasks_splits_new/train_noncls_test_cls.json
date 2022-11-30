@@ -1,0 +1,5 @@
+{
+    "train": ["ade_corpus_v2-dosage", "art", "biomrc", "blimp-sentential_negation_npi_scope", "break-QDMR-high-level", "commonsense_qa", "crows_pairs", "dream", "eli5-asks", "eli5-eli5", "freebase_qa", "gigaword", "hellaswag", "kilt_ay2", "kilt_hotpotqa", "kilt_trex", "kilt_zsre", "lama-conceptnet", "lama-google_re", "lama-squad", "math_qa", "numer_sense", "openbookqa", "piqa", "proto_qa", "qa_srl", "quarel", "quartz-no_knowledge", "race-high", "ropes", "social_i_qa", "spider", "superglue-multirc", "wiki_bio", "wikisql", "xsum", "lama-trex", "definite_pronoun_resolution", "crawl_domain", "common_gen", "superglue-record", "wiki_split", "ade_corpus_v2-effect"],
+    "dev": [],
+    "test": []
+}

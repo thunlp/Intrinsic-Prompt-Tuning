@@ -1,0 +1,1 @@
+{"all": ["tweet_eval-stance_climate"], "train": ["tweet_eval-stance_climate"], "dev": ["tweet_eval-stance_climate"], "test": ["tweet_eval-stance_climate"]}

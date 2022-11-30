@@ -1,0 +1,5 @@
+{
+    "train": ["break-QDMR-high-level", "mc_taco", "math_qa", "openbookqa", "proto_qa", "wikisql", "quartz-no_knowledge", "lama-squad", "eli5-asks", "boolq", "e2e_nlg_cleaned", "common_gen", "quartz-with_knowledge", "kilt_hotpotqa", "squad-no_context", "codah", "spider", "kilt_wow", "ade_corpus_v2-dosage", "samsum", "kilt_trex", "web_questions", "superglue-record", "social_i_qa", "lama-google_re", "ai2_arc", "cosmos_qa", "blimp-anaphor_gender_agreement", "crawl_domain", "aqua_rat", "biomrc", "kilt_zsre", "superglue-multirc", "empathetic_dialogues", "art"],
+    "dev": ["break-QDMR-high-level", "mc_taco", "math_qa", "openbookqa", "proto_qa", "wikisql", "quartz-no_knowledge", "lama-squad", "eli5-asks", "boolq", "e2e_nlg_cleaned", "common_gen", "quartz-with_knowledge", "kilt_hotpotqa", "squad-no_context", "codah", "spider", "kilt_wow", "ade_corpus_v2-dosage", "samsum", "kilt_trex", "web_questions", "superglue-record", "social_i_qa", "lama-google_re", "ai2_arc", "cosmos_qa", "blimp-anaphor_gender_agreement", "crawl_domain", "aqua_rat", "biomrc", "kilt_zsre", "superglue-multirc", "empathetic_dialogues", "art"],
+    "test": []
+}

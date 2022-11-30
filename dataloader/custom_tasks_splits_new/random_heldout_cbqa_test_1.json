@@ -1,0 +1,5 @@
+{
+    "train": ["lama-squad", "lama-trex", "lama-google_re", "numer_sense", "search_qa", "squad-no_context", "web_questions"],
+    "dev": ["lama-squad", "lama-trex", "lama-google_re", "numer_sense", "search_qa", "squad-no_context", "web_questions"],
+    "test": ["lama-squad", "lama-trex", "lama-google_re", "numer_sense", "search_qa", "squad-no_context", "web_questions"]
+}
